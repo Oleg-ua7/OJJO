@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 .bgi-lg {
   background-image: linear-gradient(
       0deg,
@@ -75,6 +78,10 @@ li {
   top: 699px;
   margin-left: 834px;
   background: #333333;
+}
+
+.catalog:hover {
+  transform: scale(1.1);
 }
 
 .catal {
@@ -226,4 +233,617 @@ li {
   tansition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
+}
+
+.choice-product {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1110px;
+  margin-left: 362px;
+  margin-top: 60px;
+  /* margin-top: 55px;
+  width: 1110px;
+  height: 590px;
+  left: 405px;
+  top: 1311px; */
+}
+
+.product {
+  width: 350px;
+  height: 280px;
+  left: 405px;
+  top: 1311px;
+  margin-bottom: 30px;
+}
+
+.card-1 {
+  background: linear-gradient(
+      180deg,
+      rgba(180, 180, 180, 0) 20.31%,
+      #333333 100%
+    ),
+    url(./img/img-groop/Rectangle.jpg);
+}
+
+.card-2 {
+  background: linear-gradient(
+      180deg,
+      rgba(180, 180, 180, 0) 20.31%,
+      #333333 100%
+    ),
+    url(./img/img-groop/Rectangle-girl.jpg);
+}
+.card-3 {
+  background: linear-gradient(
+      180deg,
+      rgba(180, 180, 180, 0) 20.31%,
+      #333333 100%
+    ),
+    url(./img/img-groop/Suspension.jpg);
+}
+.card-4 {
+  background: linear-gradient(
+      180deg,
+      rgba(180, 180, 180, 0) 20.31%,
+      #333333 100%
+    ),
+    url(./img/img-groop/Rectangle-black.jpg);
+}
+.card-5 {
+  background: linear-gradient(
+      180deg,
+      rgba(180, 180, 180, 0) 20.31%,
+      #333333 100%
+    ),
+    url(./img/img-groop/Bracelets.jpg);
+}
+.card-6 {
+  background: linear-gradient(
+      180deg,
+      rgba(180, 180, 180, 0) 20.31%,
+      #333333 100%
+    ),
+    url(./img/img-groop/Clock.jpg);
+}
+
+.product-name {
+  height: 28px;
+  left: 527px;
+  top: 1533px;
+
+  padding-top: 192px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.bg-im {
+  margin-top: 120px;
+  height: 541px;
+  top: 2021px;
+  background: url(./img/Rectangle\ 6.jpg), #333333;
+}
+
+.des-te {
+  padding-top: 100px;
+  height: 29px;
+  left: 785px;
+  top: 2121px;
+
+  /* p / 21r */
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 140%;
+  /* or 29px */
+
+  text-align: center;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.des-he {
+  height: 41px;
+  left: 690px;
+  top: 2165px;
+
+  /* p-heading / 30b */
+
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.des-tet {
+  width: 730px;
+  height: 100px;
+  padding-left: 595px;
+  /* padding-top: 45px; */
+  top: 2251px;
+
+  /* p / 18r */
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+
+  text-align: center;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.our-sal {
+  width: 154px;
+  height: 21px;
+  left: 35px;
+  top: 15px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 30px;
+  position: absolute;
+  width: 224px;
+  height: 51px;
+  left: 848px;
+  top: 2411px;
+  /* white */
+  background: #ffffff;
+  /* accent */
+  border: 1px solid #333333;
+  box-sizing: border-box;
+}
+
+.advice {
+}
+
+.advice-p {
+  margin-top: 120px;
+  margin-bottom: 0px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 140%;
+  /* or 29px */
+
+  text-align: center;
+
+  /* accent */
+
+  color: #333333;
+}
+
+.advice-h {
+  margin-top: 15px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* accent */
+
+  color: #333333;
+}
+
+.advice-ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+  height: 626px;
+  margin-left: 362px;
+  margin-top: 60px;
+  top: 2682px;
+}
+
+.advice-li-1 {
+  width: 350px;
+  height: 370px;
+  left: 405px;
+  top: 2827px;
+
+  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%),
+    url(./img/img-groop/hooks.jpg);
+}
+
+.advice-li-2 {
+  width: 350px;
+  height: 370px;
+  left: 405px;
+  top: 2827px;
+
+  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%),
+    url(./img/img-groop/cufflinks.jpg);
+}
+
+.advice-li-3 {
+  width: 350px;
+  height: 370px;
+  left: 405px;
+  top: 2827px;
+
+  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%),
+    url(./img/img-groop/Phone.jpg);
+}
+
+.advice-li-p {
+  width: 204px;
+  height: 87px;
+  left: 503px;
+  top: 3075px;
+  padding-left: 72px;
+  padding-top: 232px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.advice-a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 35px;
+
+  position: absolute;
+  width: 255px;
+  height: 51px;
+  left: 832px;
+  top: 3257px;
+
+  /* accent */
+
+  background: #333333;
+  /* white */
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+
+  /* btn / 18m-uppercase-10% */
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.advice-info {
+  position: absolute;
+  width: 350px;
+  height: 29px;
+  left: 785px;
+  top: 3428px;
+
+  /* p / 21r */
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 140%;
+  /* or 29px */
+
+  text-align: center;
+
+  /* accent */
+
+  color: #333333;
+}
+
+.advice-social {
+  width: 1110px;
+  height: 41px;
+  margin-left: 405px;
+  top: 3472px;
+
+  /* p-heading / 30b */
+
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* accent */
+
+  color: #333333;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+}
+
+.social-item {
+  margin-right: 30px;
+}
+
+.description {
+  height: 29px;
+  left: 500px;
+  margin: 0px;
+  padding-top: 100px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.description-h {
+  height: 41px;
+  left: 405px;
+  margin: 0px;
+  padding-top: 15px;
+
+  /* p-heading / 30b */
+
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.description-a {
+  width: 155px;
+  height: 25px;
+  left: 592px;
+  top: 4571px;
+  padding-left: 20px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.description-li {
+  padding-top: 15px;
+}
+
+.descr-div {
+  display: inline-block;
+  margin-left: 555px;
+  margin-top: 63px;
+}
+
+.border-form {
+  display: inline-block;
+  width: 448px;
+  height: 113px;
+  left: 880px;
+  top: 4568px;
+  margin-left: 80px;
+  padding-top: 63px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.inp-st {
+  width: 200px;
+  height: 45px;
+  left: 917px;
+  top: 4602px;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+}
+
+.form-inp {
+  padding-left: 37px;
+}
+
+.form-field {
+  display: flex;
+  margin-left: 881px;
+  margin-top: -113px;
+}
+
+.form-field-input {
+  margin-right: 15px;
+  width: 159px;
+  height: 19px;
+  padding-top: 15px;
+  padding-right: 16px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: #2f303a;
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background: #ffffff;
+  /* grey */
+
+  border: 1px solid #d6d6d6;
+}
+
+.button-footer {
+  display: inline-flex;
+  padding-top: 17px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 28px;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: #333333;
+  border: 0px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  cursor: pointer;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.foot-div {
+  width: 250px;
+  margin-left: 30px;
+}
+
+.foot-ul {
+  padding: 0px;
+  padding-top: 30px;
+}
+
+.foot-h {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* accent */
+
+  color: #333333;
+}
+
+.li-p {
+  padding-top: 30px;
+}
+
+.foot-li {
+  padding-bottom: 15px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  /* accent */
+
+  color: #333333;
+}
+
+.foot-mas {
+  padding-left: 20px;
+}
+
+.li-groop {
+  display: flex;
+  justify-content: baseline;
+}
+
+.foot-im {
+  padding-right: 20px;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+}
+
+.end-a {
+  margin-right: 69px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  /* accent */
+
+  color: #333333;
+}
+
+.end-a:hover {
+  font-weight: normal;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #000000;
 }
